@@ -53,7 +53,6 @@ class _PizzaScreenState extends State<PizzaScreen> {
   void initState() {
     super.initState();
     _costChanged(); //initialization
-    print("запуск инициализации");
   }
 
   @override
