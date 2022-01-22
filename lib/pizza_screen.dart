@@ -234,6 +234,13 @@ class _PizzaScreenState extends State<PizzaScreen> {
                   groupValue: _souse,
                   onChanged: _souseChanged,
                 ),
+                const Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 9),
+                  child: Divider(
+                    thickness: 1,
+                    color: Color(0xFFE8E8E8),
+                  ),
+                ),
                 RadioListTile<Souse>(
                   contentPadding: const EdgeInsets.only(left: 40, right: 10),
                   title: const Text(
@@ -253,6 +260,13 @@ class _PizzaScreenState extends State<PizzaScreen> {
                   groupValue: _souse,
                   onChanged: _souseChanged,
                 ),
+                const Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 9),
+                  child: Divider(
+                    thickness: 1,
+                    color: Color(0xFFE8E8E8),
+                  ),
+                ),
                 RadioListTile<Souse>(
                   contentPadding: const EdgeInsets.only(left: 40, right: 10),
                   title: const Text(
@@ -271,6 +285,13 @@ class _PizzaScreenState extends State<PizzaScreen> {
                   activeColor: Colors.green,
                   groupValue: _souse,
                   onChanged: _souseChanged,
+                ),
+                const Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 9),
+                  child: Divider(
+                    thickness: 1,
+                    color: Color(0xFFE8E8E8),
+                  ),
                 ),
                 Padding(
                   padding: const EdgeInsets.only(
